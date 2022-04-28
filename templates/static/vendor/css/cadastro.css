@@ -1,0 +1,149 @@
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+
+h2 {
+    color: #008080;
+}
+
+h3 {
+    color: #008080;
+}
+
+option:empty {
+    display: none;
+}
+
+.tooltip .arrow:before {
+    visibility: hidden;
+}
+
+.tooltip .arrow {
+    visibility: hidden;
+}
+
+.text-title-container {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+
+.background-active {
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+.line-title-container {
+    background: rgb(248, 183, 50);
+    height: 1px;
+    width: 500px;
+}
+
+.text-sub-home {
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+.portar-container-conteudo {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.text-label-formu {
+    margin-bottom: 0px;
+}
+
+.form-control {
+    height: calc(25px + 2px) !important;
+    padding: 0rem 5px;
+}
+
+.form-control-registros {
+    width: 130px !important;
+}
+
+.form-cadastro-certidão {
+    margin-top: 20px;
+}
+
+.form-registros {
+    padding-left: 0px;
+}
+
+.btn-cadastrar {
+    background-color: rgb(248, 183, 50);
+    border-color: rgb(248, 183, 50);
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
+.btn-cadastrar:hover {
+    background-color: rgb(47, 117, 181);
+}
+
+
+/*****************RESOLUÇÕES DE TELAS****************************/
+
+
+@media screen and (max-width: 1024px){
+
+    .portar-container-conteudo {
+        margin-left: 60px;
+        margin-right: 15px;
+    }
+
+    .form_cadatro{
+        padding-left: 0px;
+    }
+
+
+    .form_cadatro-2{
+        padding-left: 8px;
+    }
+
+
+    .form-inline .form-control{
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .portar-container-conteudo {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    .text-title-container {
+        font-size: 23px;
+    }
+
+    .text-sub-home {
+        font-size: 17px;
+        margin-left: 10px;
+    }
+    .img-responsivo{
+        height: 25px;
+    }
+
+    .style-responsivo{
+        padding-left: 0px;
+    }
+
+
+    .col-form-label {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0;
+    }
+
+    .form-inline .form-control {
+        width: 295px;
+    }
+}
